@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root text="&#34;KRIMIAPPLIKATION&#34;" comment="" color="ffffff" type="program" style="nice">
+	<children>
+		<instruction text="&#34;Ausgabe des Gameheaders&#34;" comment="" color="ffffff" rotated="0"></instruction>
+		<instruction text="&#34;Ausgabe des Auswahlmenüs&#34;" comment="" color="ffffff" rotated="0"></instruction>
+		<instruction text="&#34;Variable Spielstart deklarieren und auf false setzen&#34;" comment="" color="ffffff" rotated="0"></instruction>
+		<while text="&#34;während Spielstart nicht auf True gesetzt ist&#34;" comment="" color="ffffff">
+			<qWhile>
+				<instruction text="&#34;Ausgabe, was man tun möchte&#34;" comment="" color="ffffff" rotated="0"></instruction>
+				<call text="&#34;Detective_Functions.was_tue_ich = doSpeak() setzen&#34;" comment="" color="ffffff"></call>
+				<alternative text="&#34;was_tue_ich = new&#34;" comment="" color="ffffff">
+					<qTrue>
+						<call text="&#34;Persons Functions.doResetAllIndices() aufrufen &#34;,&#34;// Alle Indizien entdeckt = Nein setzen&#34;" comment="" color="ffffff"></call>
+						<call text="&#34;Persons Functions.doResetAllQuestions() aufrufen&#34;,&#34;// Alle Fragen gefragt = Nein setzen&#34;" comment="" color="ffffff"></call>
+						<call text="&#34;StartnewGame() aufrufen &#34;,&#34;// neuen Detektiv erstellen und neues Spiel starten&#34;" comment="" color="ffffff"></call>
+						<instruction text="&#34;Spielstart = true setzen&#34;" comment="" color="ffffff" rotated="0"></instruction>
+					</qTrue>
+					<qFalse>
+						<alternative text="&#34;was_tue_ich = load&#34;" comment="" color="ffffff">
+							<qTrue>
+								<call text="&#34;LoadGame() aufrufen für if else&#34;" comment="" color="ffffff"></call>
+								<alternative text="&#34;Spielstand vorhanden mit nicht abgeschlossenem Fall&#34;" comment="" color="ffffff">
+									<qTrue>
+										<instruction text="&#34;Spielstart = true setzen&#34;" comment="" color="ffffff" rotated="0"></instruction>
+									</qTrue>
+									<qFalse>
+										<instruction text="&#34;Ausgabe, dass der Spielstand besetzt ist&#34;" comment="" color="ffffff" rotated="0"></instruction>
+										<instruction text="&#34;Spielstart = false setzen&#34;" comment="" color="ffffff" rotated="0"></instruction>
+									</qFalse>
+								</alternative>
+							</qTrue>
+							<qFalse>
+								<alternative text="&#34;was_tue_ich = highscore&#34;" comment="" color="ffffff">
+									<qTrue>
+										<call text="&#34;Aufruf von doShowHighscores() zur Ausgabe der Highscores&#34;" comment="" color="ffffff"></call>
+									</qTrue>
+									<qFalse>
+										<instruction text="&#34;Ausgabe, dass der Befehl nicht bekannt ist&#34;" comment="" color="ffffff" rotated="0"></instruction>
+									</qFalse>
+								</alternative>
+							</qFalse>
+						</alternative>
+					</qFalse>
+				</alternative>
+			</qWhile>
+		</while>
+		<call text="&#34;Detective_Functions.Detective() aufrufen &#34;,&#34;=&#62; Hauptteil des Spiels&#34;" comment="" color="ffffff"></call>
+		<while text="&#34;während Variable Case_closed nicht gleich true&#34;" comment="" color="ffffff">
+			<qWhile>
+				<instruction text="&#34;Ausgabe des Detektivmenüs&#34;" comment="" color="ffffff" rotated="0"></instruction>
+				<call text="&#34;was_tue_ich mit doSpeak() füllen (aufrufen)&#34;" comment="" color="ffffff"></call>
+				<alternative text="&#34;was_tue_ich = n&#34;" comment="" color="ffffff">
+					<qTrue>
+						<call text="&#34;Persons Functions.all_notices() ungefiltert alle&#34;,&#34;Notizen zeigen, die wir bis jetzt haben&#34;" comment="" color="ffffff"></call>
+					</qTrue>
+					<qFalse>
+						<alternative text="&#34;was_tue_ich = v&#34;" comment="" color="ffffff">
+							<qTrue>
+								<call text="&#34;doGuess() // übergeben der instanziierten Personsclass Functions&#34;,&#34;Verdächtigungsmodus&#34;" comment="" color="ffffff"></call>
+							</qTrue>
+							<qFalse>
+								<alternative text="&#34;was_tue_ich = help&#34;" comment="" color="ffffff">
+									<qTrue>
+										<call text="&#34;Desktop.getDesktop().open(new File(&#34;&#34;Programmanleitung.pdf&#34;&#34;));&#34;" comment="&#34;&#34;" color="ffffff"></call>
+									</qTrue>
+									<qFalse>
+										<alternative text="&#34;was_tue_ich = b&#34;" comment="" color="ffffff">
+											<qTrue>
+												<call text="&#34;Aufruf von doAskPersons() // übergeben der Personenclass Functions&#34;,&#34;Befragungsmodus&#34;" comment="" color="ffffff"></call>
+											</qTrue>
+											<qFalse>
+												<alternative text="&#34;was_tue_ich = s&#34;" comment="" color="ffffff">
+													<qTrue>
+														<call text="&#34;Aufruf von doSearch() &#34;,&#34;// übergeben der instanziierten Placeclass CrimeScene&#34;" comment="" color="ffffff"></call>
+													</qTrue>
+													<qFalse>
+														<instruction text="&#34;Fehlermeldung ausgeben, Befehl nicht vorhanden&#34;" comment="" color="ffffff" rotated="0"></instruction>
+													</qFalse>
+												</alternative>
+											</qFalse>
+										</alternative>
+									</qFalse>
+								</alternative>
+							</qFalse>
+						</alternative>
+					</qFalse>
+				</alternative>
+				<call text="&#34;doCloseCase()&#34;" comment="" color="ffffff"></call>
+				<call text="&#34;MainProgram.doSaveGame()&#34;" comment="" color="ffffff"></call>
+			</qWhile>
+		</while>
+	</children>
+</root>

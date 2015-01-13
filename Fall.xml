@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><Fall>
+  <Indiz entdeckt="Ja" name="automatisch">Spielbeginn...</Indiz>
+	<Indiz entdeckt="Ja" name="tatzeitpunkt">Der Tatzeitpunkt war zwischen 14 Uhr und 15:30 am 15. Maerz</Indiz>
+	<Indiz belastet_wen="Selbstmord" entdeckt="Nein" name="tatwaffe">Die Tatwaffe war ein Foehn angeschlossen an einem Verlaengerungskabel.</Indiz>
+	<Indiz belastet_wen="Selbstmord" entdeckt="Ja" name="gewaltspuren">Es fanden sich keine Gewaltspuren am Leichnam.</Indiz>
+	<Indiz entdeckt="Nein" name="allgemeine_informationen">Die Haut war geroetet, die Person war gestresst und ass zuletzt Seelachs.</Indiz>
+	<Indiz entdeckt="Nein" name="flaschen_unordentlich">Es gab eine leichte Unordnung im Badezimmer</Indiz>
+	<Indiz entdeckt="Nein" entlastet_wen="Selbstmord" in_verbindung_mit2="flaschen_unordentlich" name="Ordentlich">Susan war sehr ordentlich.</Indiz>
+	<Indiz entdeckt="Nein" name="befoerderung_susan">Susan haette befoerdert werden sollen.</Indiz>
+	<Indiz entdeckt="Nein" entlastet_wen="Selbstmord" in_verbindung_mit2="stress_bekaempfung" name="gestresst">Susan war kurz vor dem Tod gestresst...</Indiz>
+	<Indiz entdeckt="Nein" entlastet_wen="Selbstmord" name="verantwortungsvoll">Susan war sehr verantwortungsvoll.</Indiz>
+	<Indiz entdeckt="Nein" entlastet_wen="Selbstmord" name="selbstbewusst">Susan war sehr selbstbewusst.</Indiz>
+	<Indiz entdeckt="Nein" name="stress_anfaelle">Susan litt desoefteren unter Stressanfaellen.</Indiz>
+	<Indiz entdeckt="Nein" name="stress_ursache">Ausgeloest wurden Susans Stressanfaelle wenn sie allergische Reaktionen durch Fischverzehr hatte...</Indiz>
+	<Indiz entdeckt="Nein" name="stress_bekaempfung">Susan wandte sich bei Stress an ihre Ansprechpersonen und liess sich ein Bad ein und trank Rotwein.</Indiz>
+	<Indiz entdeckt="Nein" name="bibliotheksbesuche">Susan ging gerne in die Bibliothek.</Indiz> 
+  <Indiz entdeckt="Nein" name="arbeitsstelle_susan">(Arbeitsstelle von Susan)</Indiz> 
+  <Indiz belastet_wen="Melissa" entdeckt="Nein" in_verbindung_mit="anruf_susan" name="ansprechpersonen">Ansprechpersonen: Eric Stone und Melissa Bloom.</Indiz>
+	<!-- Tatort -->
+	<Indiz entdeckt="Nein" entlastet_wen="Eric" name="verlobungsring">Eric Stone wollte Miss Miller heiraten...</Indiz>
+	<Indiz belastet_wen="Eric" entdeckt="Nein" name="Haushaltkasse_ungenau">Es wurde Geld aus der Haushaltkasse entwendet... ein Dieb oder Eric Stone?</Indiz>
+	<!-- Bibliothekarin -->
+	<Indiz belastet_wen="Selbstmord" entdeckt="Nein" name="jeden_freitag">Susan ging JEDEN Freitag in die Bibliothek</Indiz>        	
+  <Indiz entdeckt="Nein" name="zwangsneurose">Susan hatte eine Zwangsneurose...</Indiz>
+	<!-- Eric -->
+	<Indiz belastet_wen="Eric" entdeckt="Nein" in_verbindung_mit="motiv_eric" name="schulden">Eric hatte hohe Schulden.</Indiz>
+	<Indiz entdeckt="Nein" name="Kredithai">Mister Stone hatte einen Kredit...</Indiz>
+	<Indiz entdeckt="Nein" entlastet_wen="Eric" name="reservation">Fuer den Tatabend war ein Abend in einem Restaurant vorgesehen =&gt; Reservation</Indiz>
+	<Indiz belastet_wen="Eric" entdeckt="Nein" in_verbindung_mit="falsches_alibi" name="alibi_eric">Eric behauptet zur Tatzeit auf der Arbeit gewesen zu sein.</Indiz>
+	<Indiz entdeckt="Nein" entlastet_wen="Eric" name="beweis_treffen_kredithai">Mister Stone scheint ziemlich demoliert zu sein...</Indiz>
+	<Indiz entdeckt="Nein" entlastet_wen="Eric" name="alibi_eric_richtig">Mister Stone war zur Tatzeit beim Kredithai und wurde wohl ziemlich demoliert.</Indiz>
+	<Indiz belastet_wen="Eric" entdeckt="Nein" name="falsches_alibi">Eric hat uns im Bezug auf seinen Verbleib am Tattag belogen (erstes Alibi)</Indiz>
+	<Indiz belastet_wen="Eric" entdeckt="Nein" in_verbindung_mit="schulden" name="motiv_eric">Eric hatte Schulden und wusste von der Lebensversicherung seiner Freundin.</Indiz>
+	<Indiz entdeckt="Nein" name="nur_lachs">Susan durfte nur Fisch essen.</Indiz>
+	<Indiz entdeckt="Nein" name="arbeitsstelle_eric">(Arbeitsstelle von Eric)</Indiz> 
+	<Indiz entdeckt="Nein" name="liste">Du erfaehrst etwas von einer Anwesenheitsliste, du solltest nachfragen.</Indiz>
+	<!-- Melissa -->
+<Indiz belastet_wen="Melissa" entdeckt="Nein" in_verbindung_mit="tatzeit" name="anruf_susan">Melissa wurde kurz vor der Tatzeit von Susan angerufen.</Indiz>
+	<Indiz belastet_wen="Melissa" entdeckt="Nein" in_verbindung_mit="motiv_melissa" name="befoerderung_melissa">Melissa wird nun befoerdert, weil Susan tot ist.</Indiz>
+	<Indiz belastet_wen="Melissa" entdeckt="Nein" name="motiv_melissa">Melissa wurde von Susans Befoerderung...</Indiz>
+	<Indiz entdeckt="Nein" entlastet_wen="Melissa" name="alibi_melissa">Melissa behauptet, sie haette das Inventar gemacht zur Tatzeit.</Indiz>
+	<Indiz belastet_wen="Melissa" entdeckt="Nein" name="inventar_susan">Susan hat das Inventar erst vor kurzem gemacht, sodass es fuer ein Jahr erledigt war...</Indiz>
+	<Indiz belastet_wen="Melissa" entdeckt="Nein" in_verbindung_mit="stress_ursache" name="m_wissen_ueber_susan">Melissa wusste ueber Susans Fischallergie Bescheid.</Indiz>
+	<!-- Kredithai -->
+	<Indiz entdeckt="Nein" name="gluecksspiel">Der Kredithai schlaegt ein Spiel vor um seine Zunge zu lockern...</Indiz>
+	<Indiz entdeckt="Nein" name="gluecksspiel_gewonnen">Der Kredithai duerfte dir nun alles sagen, was er weiss...</Indiz>
+	<Indiz entdeckt="Nein" name="arbeiten">Eric wollte gewisse Arbeiten fuer den Kredithai erledigen...</Indiz>
+	<!-- Chef -->
+	<Indiz entdeckt="Nein" name="behauptung_motiv_chef">Melissa meinte, ihr Chef haette ein Motiv...</Indiz>
+	<Indiz belastet_wen="Chef" entdeckt="Nein" name="motiv_chef">Der Chef hatte eine Affaere mit Melissa... und wurde in flagranti von Susan erwischt.</Indiz>
+	<Indiz entdeckt="Nein" name="alibi_fuer_melissa">Der Chef hat Melissa ein Alibi gegeben... sie soll zur Tatzeit das Inventar gemacht haben...</Indiz>
+	<Indiz belastet_wen="Chef" entdeckt="Nein" in_verbindung_mit="motiv_chef" name="weniger_zu_sagen">Der Chef hat in der Beziehung mit seiner Frau und auch in der Firma weniger zu sagen.</Indiz>
+	<Indiz belastet_wen="Melissa" entdeckt="Nein" entlastet_wen="Chef" in_verbindung_mit="tatzeit" in_verbindung_mit2="tatzeit" name="ueberwachungsbaender">Die Ueberwachungsbaender zeigen, dass der Chef und Melissa eine Affaere hatten und dass Melissa zur Tatzeit absent war.</Indiz>	
+</Fall>

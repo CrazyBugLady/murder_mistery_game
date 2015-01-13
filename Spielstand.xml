@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="windows-1250" standalone="no"?><Spielstand>
+<Name>Natalie</Name>
+<Fallabgeschlossen>false</Fallabgeschlossen>
+<Punkte>30</Punkte>
+<Rang rangnummer="1">Hobbydetektiv</Rang>
+<Highscore Name="Niemand" Punkte="30" rangnummer="1"/>
+ <Highscore Name="Niemand" Punkte="30" rangnummer="1"/>
+ <Highscore Name="Niemand" Punkte="30" rangnummer="1"/>
+<!-- Highscores Level 2 --> 
+ <Highscore Name="Niemand" Punkte="20" rangnummer="2"/>
+ <Highscore Name="Niemand" Punkte="20" rangnummer="2"/>
+ <Highscore Name="Niemand" Punkte="20" rangnummer="2"/>
+ <!-- Highscores Level 3 -->
+ <Highscore Name="Niemand" Punkte="10" rangnummer="3"/>
+ <Highscore Name="Niemand" Punkte="10" rangnummer="3"/>
+ <Highscore Name="Niemand" Punkte="10" rangnummer="3"/>
+</Spielstand><!-- Highscores Level 1 -->

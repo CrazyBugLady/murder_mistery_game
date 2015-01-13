@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root text="&#34;DOGUESS()&#34;" comment="&#34;&#34;" color="ffffff" type="program" style="nice">
+	<children>
+		<instruction text="&#34;Übergabe von Personsclass namens Functions&#34;" comment="" color="ffffff" rotated="0"></instruction>
+		<instruction text="&#34;Ausgabe, Frage ob Mord oder Selbstmord&#34;" comment="" color="ffffff" rotated="0"></instruction>
+		<call text="&#34;doSpeak() aufrufen und was_tue_ich zuweisen&#34;" comment="" color="ffffff"></call>
+		<alternative text="&#34;was_tue_ich = Mord oder was_tue_ich = Selbstmord&#34;" comment="" color="ffffff">
+			<qTrue>
+				<alternative text="&#34;was_tue_ich = Mord&#34;" comment="" color="ffffff">
+					<qTrue>
+						<instruction text="&#34;Ausgabe, Nachfrage danach, wer den Mord begangen hat&#34;" comment="" color="ffffff" rotated="0"></instruction>
+						<call text="&#34;Functions.allPersons(); &#34;,&#34;Alle Personen ausgeben, die man verdächtigen könnte&#34;" comment="" color="ffffff"></call>
+						<while text="&#34;wenn man noch keine Person ausgewählt hat oder man back geschrieben hat&#34;" comment="" color="ffffff">
+							<qWhile>
+								<instruction text="&#34;Ausgabe von &#34;&#34;Antwort:&#34;&#34;&#34;" comment="" color="ffffff" rotated="0"></instruction>
+								<call text="&#34;Aufruf von Functions.doSetPerson(doSpeak());&#34;,&#34;Person füllen mit Wert aus der doSpeak - Methode&#34;" comment="" color="ffffff"></call>
+							</qWhile>
+						</while>
+						<instruction text="&#34;Ausgabe warum man das denkt mit anschliessender Beweisauflistung&#34;" comment="" color="ffffff" rotated="0"></instruction>
+					</qTrue>
+					<qFalse>
+						<instruction text="&#34;-&#34;" comment="" color="ffffff" rotated="0"></instruction>
+					</qFalse>
+				</alternative>
+				<alternative text="&#34;was_tue_ich = Mord?&#34;" comment="" color="ffffff">
+					<qTrue>
+						<call text="&#34;Functions.all_notices() gefiltert nach Person, die man verdächtigt&#34;,&#34;Alle passenden Notizen auflisten&#34;" comment="" color="ffffff"></call>
+					</qTrue>
+					<qFalse>
+						<call text="&#34;Functions.all_notices() gefiltert nach Selbstmord &#34;,&#34;Alle passenden Notizen auflisten&#34;" comment="" color="ffffff"></call>
+					</qFalse>
+				</alternative>
+				<alternative text="&#34;Functions.my_indices grösser oder gleich 2&#34;" comment="&#34;&#34;" color="ffffff">
+					<qTrue>
+						<instruction text="&#34;Ausgabe, dass man den Fall gewonnen hat&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+						<alternative text="&#34;was_tue_ich = Mord&#34;" comment="&#34;&#34;" color="ffffff">
+							<qTrue>
+								<instruction text="&#34;Ausgabe, welcher Person die lebenslange Strafe bekommt&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+								<instruction text="&#34;Case_closed = true setzen // Fall schliessen&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+								<call text="&#34;MainProgram.doSetHighscore() überprüfen, ob man einen&#34;,&#34;Highscore geschafft hat und platziert wird und dann&#34;,&#34;gegebenenfalls platzieren&#34;" comment="&#34;&#34;" color="ffffff"></call>
+								<call text="&#34;MainProgram.doSaveGame() Alle Änderungen in den Variabeln übernehmen und speichern&#34;" comment="&#34;&#34;" color="ffffff"></call>
+							</qTrue>
+							<qFalse>
+								<instruction text="&#34;-&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+							</qFalse>
+						</alternative>
+					</qTrue>
+					<qFalse>
+						<instruction text="&#34;Ausgabe, dass der Fall verloren wurde&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+						<instruction text="&#34;Case_closed = true setzen&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+						<call text="&#34;MainProgram.doSaveGame()&#34;,&#34;Spiel speichern, damit Änderungen übernommen werden&#34;" comment="&#34;&#34;" color="ffffff"></call>
+					</qFalse>
+				</alternative>
+			</qTrue>
+			<qFalse>
+				<instruction text="&#34;Ausgabe, dass dieser Vorwurf unbekannt ist&#34;" comment="" color="ffffff" rotated="0"></instruction>
+			</qFalse>
+		</alternative>
+	</children>
+</root>

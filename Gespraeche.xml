@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><Gespraeche>
+  <Gespraech Person="Eric" freigeschaltet="automatisch">
+			<Frage gefragt="nein" gibt_wissen="alibi_eric" id="1" notwendiges_wissen="tatzeitpunkt">Wo waren Sie am 15. März zwischen 14 Uhr und 15:30 Uhr?</Frage>
+			<Frage gefragt="nein" gibt_wissen="beweis_treffen_kredithai" id="2" notwendiges_wissen="alibi_eric_richtig">Offensichtlich wurden Sie Teil einer heftigen Auseinandersetzung. Was ist passiert?</Frage>
+			<Frage gefragt="nein" gibt_wissen="motiv_eric" id="3" notwendiges_wissen="schulden">Wussten Sie von der Lebensversicherung Ihrer Freundin?</Frage>
+			<Frage gefragt="nein" gibt_wissen="" id="4" notwendiges_wissen="schulden">Wie hatten Sie vor, Ihre Schulden zu begleichen?</Frage>
+			<Frage gefragt="nein" gibt_wissen="" id="5" notwendiges_wissen="falsches_alibi">Sie haben mich im Bezug auf Ihr Alibi angelogen. Wo waren Sie tatsächlich zum Tatzeitpunkt?</Frage>
+			<Frage gefragt="nein" gibt_wissen="selbstbewusst" id="6" notwendiges_wissen="">Können Sie sich vorstellen, dass Susan sich umgebracht hat?</Frage>
+			<Frage gefragt="nein" gibt_wissen="stress_anfaelle" id="7" notwendiges_wissen="ordentlich">Wie Sie sicherlich wissen, hatte Ihre Freundin einen Drang zur Ordnung... hat sich das im Alltag sonst wie offenbart?</Frage>
+			<Frage gefragt="nein" gibt_wissen="stress_bekaempfung" id="8" notwendiges_wissen="stress_anfaelle">Wenn Sie unter Stress litt... Was tat Sie dann?</Frage>
+			<Frage gefragt="nein" gibt_wissen="stress_ursache" id="9" notwendiges_wissen="stress_anfaelle">Wann trat solcher Stress für gewöhnlich auf?</Frage>
+			<Frage gefragt="nein" gibt_wissen="nur_lachs" id="10" notwendiges_wissen="stress_ursache">Ihre Freundin hatte doch eine Fischallergie... warum steht dann im Kühlschrank so viel Lachs?</Frage>
+			<Frage gefragt="nein" gibt_wissen="arbeitsstelle_susan" id="11" notwendiges_wissen="">Wo hat Susan gearbeitet?</Frage>
+			<Frage gefragt="nein" gibt_wissen="ansprechpersonen" id="12" notwendiges_wissen="stress_bekaempfung">Und wo finde ich diese beste Freundin?</Frage>
+			<Frage gefragt="nein" gibt_wissen="arbeitsstelle_eric" id="13" notwendiges_wissen="alibi_eric">Wo finde ich Ihre Arbeitstelle, Mister Stone?</Frage>
+			<Antwort frageid="1">Ich war auf der Arbeit, wie jeden Freitag.</Antwort>
+			<Antwort frageid="2">Oh... ein kleines Geraufe mit einem Kollegen. Wir waren zusammen eine Stange trinken.</Antwort>
+			<Antwort frageid="3">Selbstverständlich wusste ich davon... wir hatten keine Geheimnisse voreinander. Unsere Beziehung war allgemein offen und ehrlich.</Antwort>
+			<Antwort frageid="4">Nun... Ich habe eine Hypothek aufs Haus aufgenommen... und ich habe ab und an ein paar Überstunden geleistet. Ausserdem... hatte ich vor in nächster Zeit einen Nebenerwerb zu finden.</Antwort>
+			<Antwort frageid="5">... Tut mir Leid aber ich ziehe es vor, die Antwort zu verweigern.</Antwort>
+			<Antwort frageid="6">Ich weiss, dass Sie sich nicht umgebracht hat. Sie war eine fröhliche, selbstbewusste Frau, die viele Perspektiven im Leben gesehen hat.</Antwort>
+			<Antwort frageid="7">Das ist milde ausgedrückt. Sie hatte eine psychologisch festgestellte Zwangsneurose. Alles musste an seinem Platz stehen. Und ihr Tagesablauf war stets derselbe. Ausser Sie hatte ihre Stressanfälle.</Antwort>
+			<Antwort frageid="8">Sie hat sich ein entspannendes Bad eingelassen und entweder mir oder ihrer besten Freundin angerufen. Diese hatte sogar einen Schlüssel zu unserem Haus, weil sie relativ oft kommen musste.</Antwort>
+			<Antwort frageid="9">In letzter Zeit zwar eher selten... Doch früher im Normalfall dann, wenn Susan Fisch ass. Sie hat eine Fischallergie.</Antwort>
+			<Antwort frageid="10">Ja, Lachs ist ausgenommen von der Fischallergie. Es gibt einige Allergiker, die einen Fisch oder ein paar wenige essen können. Susan hat, meines Wissens nach, nur Lachs vertragen. Nichts anderes.</Antwort>
+			<Antwort frageid="11">Sie arbeitete in einem hoch angesehenen Kaufhaus hier in der Nähe. Ich gebe Ihnen die Adresse, möglicherweise kann man Ihnen dort weiterhelfen (schreibt Adresse auf).</Antwort>
+			<Antwort frageid="12">Die arbeitet im selben Kaufhaus wie Susan...</Antwort>
+			<Antwort frageid="13">(reicht wortlos eine Visitenkarte mit der Geschäftsadresse)</Antwort>
+  </Gespraech>
+    <Gespraech Person="Melissa" freigeschaltet="arbeitsstelle_susan">
+	<Frage gefragt="nein" gibt_wissen="alibi_melissa" id="1" notwendiges_wissen="tatzeitpunkt">Wo waren Sie am 15. März zwischen 14 Uhr und 15:30 Uhr?</Frage>
+			<Frage gefragt="nein" gibt_wissen="" id="2" notwendiges_wissen="">In welcher Beziehung standen Sie zu Susan Miller?</Frage>
+			<Frage gefragt="nein" gibt_wissen="motiv_melissa" id="3" notwendiges_wissen="befoerderung_susan">Wussten Sie, dass Susan befördert werden sollte?</Frage>
+			<Frage gefragt="nein" gibt_wissen="ordentlich" id="4" notwendiges_wissen="zwangsneurose">Was können Sie mir zu der Zwangsneurose von Susan Miller sagen?</Frage>
+			<Frage gefragt="nein" gibt_wissen="" id="5" notwendiges_wissen="ansprechpersonen">Laut Eric Stone besassen Sie einen Hausschlüssel und waren eine der Ansprechpersonen von Susan Miller...</Frage>
+			<Frage gefragt="nein" gibt_wissen="" id="6" notwendiges_wissen="">Können Sie sich vorstellen, dass Susan sich umgebracht hat?</Frage>
+			<Frage gefragt="nein" gibt_wissen="weniger_zu_sagen" id="7" notwendiges_wissen="befoerderung">Herzlichen Glückwunsch zu Ihrer Beförderung. Wussten Sie, dass Sie für die Beförderung infrage gekommen sind?</Frage>
+			<Frage gefragt="nein" gibt_wissen="behauptung_motiv_chef" id="8" notwendiges_wissen="susan_inventar">Offensichtlich haben Sie mich im Bezug auf ihr Alibi angelogen... Susan Miller hat das Inventar bereits vor 2 Monaten gemacht...</Frage>
+			<Frage gefragt="nein" gibt_wissen="motiv_chef" id="9" notwendiges_wissen="behauptung_motiv_chef">Was für ein Motiv hatte ihr Chef?</Frage>
+			<Frage gefragt="nein" gibt_wissen="" id="10" notwendiges_wissen="weniger_zu_sagen">Warum hat der Chef weniger zu sagen?</Frage>
+			<Frage gefragt="nein" gibt_wissen="m_wissen_ueber_susan" id="11" notwendiges_wissen="stress_bekaempfung">Kannten Sie Susans Essgewohnheiten?</Frage>
+			<Antwort frageid="1">Ich war auf der Arbeit und habe mich um das Inventar gekümmert. Und bevor Sie fragen, ja es gibt einen Zeugen. Mein Chef kann das gerne bezeugen.</Antwort>
+			<Antwort frageid="2">Nun... wir waren Arbeitskolleginnen. Nicht mehr und nicht weniger.</Antwort>
+			<Antwort frageid="3">Ich hatte zugegebenermassen eine Ahnung. Doch wer hatte die nicht? Susan war die Lieblingsmitarbeiterin unserer Chefin... (verdreht die Augen)</Antwort>
+			<Antwort frageid="4">Sie war immer sehr korrekt und hasste es, wenn etwas nicht wie geplant lief. Unordnung war ihr ein Graus.</Antwort>
+			<Antwort frageid="5">Hm... ja... ganz oke... Ich wusste nicht, dass das wichtig wäre.</Antwort>
+			<Antwort frageid="6">Nun... Stille Wasser liegen tief. Dafür kannte ich sie nicht gut genug.</Antwort>
+			<Antwort frageid="7">Natürlich. Offengesagt war ich die Favoritin des Chefs. Aber die Chefin hat Susan bevorzugt. Die Tatsache, dass er weniger zu sagen hat als sie, ist der einzige Grund, warum Susan statt meiner befördert worden wäre.</Antwort>
+			<Antwort frageid="8">Ich habe Panik bekommen, weil weder ich, noch der Chef ein sauberes Alibi haben. Insbesonders... weil der Chef ja auch ein Motiv hat... und zwar ein gewichtigeres als meins...</Antwort>
+			<Antwort frageid="9">Ich hatte und habe immer noch eine Affäre mit dem Chef. Susan hat uns in flagranti erwischt. In der Beziehung hat unsere Chefin das Geld und sorgt dafür, dass die Firma nicht in den Ruin getrieben wird. Sollte unsere Affäre herauskommen, wäre mein Chef ruiniert.</Antwort>
+			<Antwort frageid="10">Weil die Frau das Geld in der Beziehung hat...</Antwort>
+			<Antwort frageid="11">Mh ja... sie mochte Fisch total gerne... aber ich glaube, sie konnte nicht jeden Fisch essen... aber ich weiss wirklich nicht, warum das wichtig sein sollte.</Antwort>
+  </Gespraech>
+  <Gespraech Person="Pathologe" freigeschaltet="automatisch">
+			<Frage gefragt="ja" gibt_wissen="tatzeitpunkt" id="1" notwendiges_wissen="">Wann war der Tatzeitpunkt?</Frage>
+			<Frage gefragt="nein" gibt_wissen="tatwaffe" id="2" notwendiges_wissen="">Was war die Todesursache?</Frage>
+			<Frage gefragt="ja" gibt_wissen="gewaltspuren" id="3" notwendiges_wissen="">Gab es Spuren von Gewalt?</Frage>
+			<Frage gefragt="nein" gibt_wissen="allgemeine_informationen" id="4" notwendiges_wissen="">Was für allgemeine Informationen können Sie mir über das Opfer geben?</Frage>
+			<Frage gefragt="nein" gibt_wissen="" id="5" notwendiges_wissen="allgemeine_informationen">Sonst noch etwas?</Frage>
+			<Frage gefragt="nein" gibt_wissen="" id="6" notwendiges_wissen="stress_ursache">Ist es denkbar, dass Susan Miller aufgrund einer allergischen Reaktion gestresst war?</Frage>
+			<Antwort frageid="1">Am 15. März in einem Zeitraum zwischen 14 Uhr und 15:30 Uhr.</Antwort>
+			<Antwort frageid="2">Tod durch Stromschlag offenkundig. Sie wurde mit einem Föhn in der Badewanne gefunden.</Antwort>
+			<Antwort frageid="3">Nein, das Opfer lag bereits in der Badewanne, als der Föhn hineingeriet.</Antwort>
+			<Antwort frageid="4">Nun, ihre letzte Mahlzeit war Seelachs, sie hatte relativ viele Antikörper im Blut und offensichtlich stand sie leicht unter Stress.</Antwort>
+			<Antwort frageid="5">Ihre Haut war leicht gerötet, vermutlich eine allergische Reaktion aber sonst war alles normal.</Antwort>	
+			<Antwort frageid="6">Es ist sogar wahrscheinlich. In Verbindung mit der allergischen Reaktion kann ich mir bei diesem Todesfall nur diese Stressursache denken.</Antwort>	
+  </Gespraech>
+  <Gespraech Person="Bibliothekarin" freigeschaltet="bibliotheksbesuche">
+		<Fragen>
+			<Frage gefragt="nein" gibt_wissen="zwangsneurose" id="1" notwendiges_wissen="">Können Sie mir etwas über Miss Miller sagen?</Frage>
+			<Frage gefragt="nein" gibt_wissen="jeden_freitag" id="2" notwendiges_wissen="">War sie jeden Freitag hier?</Frage>
+			<Frage gefragt="nein" gibt_wissen="" id="3" notwendiges_wissen="">Können Sie mir sonst noch etwas über Miss Miller sagen, was Ihnen wichtig erscheint?</Frage>
+			</Fragen>
+		<Antworten>
+			<Antwort frageid="1">Selbstverständlich! Sie war eine fantastische Kundin! Vorbildliche Bibliotheksbesucherin. In der Abteilung, in der sie gelesen hat, hat sie erstmal alles akribisch geordnet, bevor sie  begann zu lesen. Sie hatte eine Zwangsneurose sollte ich dazu sagen.</Antwort>
+			<Antwort frageid="2">Ja, ausnahmslos. Und zwar immer während desselben Zeitraums. Ungefähr um 2 Uhr nachmittags war sie hier und blieb dann vielleicht zwei, drei Stunden.</Antwort>
+			<Antwort frageid="3">Lassen Sie mich überlegen. Nun ja... Sie hatte eine Vorliebe für Krimis ... aber sonst fällt mir dazu nichts ein.</Antwort>
+		</Antworten>
+  </Gespraech>
+       <Gespraech Person="Kredithai" freigeschaltet="kredithai">
+		<Fragen>
+			<Frage gefragt="nein" gibt_wissen="gluecksspiel" id="1" notwendiges_wissen="">Was können Sie mir über Eric Stone verraten?</Frage>
+			<Frage gefragt="nein" gibt_wissen="gluecksspiel_gewonnen" id="2" minispiel="1" notwendiges_wissen="gluecksspiel">Nehmen wir an, ich ziehe diese Möglichkeit in Betracht... (Glücksspiel)</Frage>
+			<Frage gefragt="nein" gibt_wissen="" id="3" notwendiges_wissen="gluecksspiel_gewonnen">Eric war ein schlechter Schuldner, wie ich aus zuverlaessiger Quelle weiss... hat er je erwähnt, wie er vorhatte, seine Schulden zu begleichen?</Frage>
+			<Frage gefragt="nein" gibt_wissen="alibi_eric_richtig" id="4" notwendiges_wissen="gluecksspiel_gewonnen">Wann haben Sie ihn zum letzten Mal getroffen?</Frage>
+			<Frage gefragt="nein" gibt_wissen="" id="5" notwendiges_wissen="alibi_eric_richtig">Hat Eric Stone an diesem Tag erwähnt, dass er vermutlich bald zu Geld kommen könnte?</Frage>
+			<Frage gefragt="nein" gibt_wissen="" id="6" notwendiges_wissen="arbeiten">Was für Arbeiten?</Frage>
+			<Frage gefragt="nein" gibt_wissen="" id="7" notwendiges_wissen="gluecksspiel_gewonnen">Kennen Sie Susan Miller?</Frage>
+			</Fragen>
+		<Antworten>
+			<Antwort frageid="1">Mister Stone? Ich bin nicht sicher ob ich ihn kenne (seine Augen funkeln interessiert). Aber es gäbe die Möglichkeit, meinem Gedächtnis auf die Sprünge zu helfen.</Antwort>
+			<Antwort frageid="2">Detective... ich denke dann könnte ich Ihnen alles über Eric Stone verraten, was sie wissen wollen.</Antwort>	
+			<Antwort frageid="3">Er meinte, er haette bereits eine Hypothek auf sein Haus aufgenommen und dass er annimmt, in nÃ¤chster Zeit beim Spielen mehr GlÃ¼ck zu haben. Aber ich hasse es, zu warten.</Antwort>
+			<Antwort frageid="4">(grinsend) am 15. Maerz... Er war wÃ¤hrend des ganzen Nachmittags bei mir und ich hab ihn mit Nachdruck daran erinnert, dass ich mein Geld bald sehen will...</Antwort>
+			<Antwort frageid="5">Nichts dergleichiges hat er gesagt. Er hat nur zugestimmt, mir bei gewissen Arbeiten behilflich zu sein.</Antwort>
+			<Antwort frageid="6">Arbeiten, die für einen Arbeiter eines Pharmakonzerns infrage kommen, natürlich.</Antwort>
+			<Antwort frageid="7">Soweit ich mich entsinnen mag, war das die Freundin von Eric Stone, die kürzlich verstorben ist. Aber mehr weiss ich nicht.</Antwort>
+		</Antworten>
+  </Gespraech> 
+  <Gespraech Person="Arbeitsstelle_Eric" freigeschaltet="arbeitsstelle_eric">
+		<Fragen>
+			<Frage gefragt="nein" gibt_wissen="liste" id="1" notwendiges_wissen="alibi_eric">Hat Eric Miller am 15. März den ganzen Nachmittag über gearbeitet?</Frage>
+			<Frage gefragt="nein" gibt_wissen="falsches_alibi" id="2" notwendiges_wissen="liste">Es wäre wichtig, dass ich herausfinde, ob er hier war oder nicht.</Frage>
+			<Frage gefragt="nein" gibt_wissen="" id="3" notwendiges_wissen="">Guten Tag, ich bin Detektiv und untersuche in einem möglichen Mordfall. Was können Sie über die Anwesenheit von Mister Stone am 15. März sagen?</Frage>
+		</Fragen>
+		<Antworten>
+			<Antwort frageid="1">Da müsste ich erst nachsehen. Wir haben hier eine Anwesenheitsliste aber die ist nicht besonders gut geführt. Es ist sehr schwierig, herauszufinden, ob ein einzelner Mitarbeiter anwesend war.</Antwort>
+			<Antwort frageid="2">Ich sehe mal, was sich tun lässt (plötzliche Erkenntnis). An dem Tag war eine Feuerwehrübung. Es war Pflicht, dass vorbildlich Protokoll geführt wurde. (sieht nach). Mister Stone war absent.</Antwort>
+			<Antwort frageid="3">(entgeistert) Mister Stone? Möglich... dass er hier war... (wird ganz unruhig - Möglicherweise solltest du die Frage anders stellen)</Antwort>
+		</Antworten>
+  </Gespraech>
+   <Gespraech Person="Chef" freigeschaltet="arbeitsstelle_susan">
+		<Fragen>
+			<Frage gefragt="nein" gibt_wissen="" id="1" notwendiges_wissen="">Guten Tag, ich ermittle im Mordfall von Susan Miller... was können Sie mir über die Tote sagen?</Frage>
+			<Frage gefragt="nein" gibt_wissen="alibi_fuer_melissa" id="2" notwendiges_wissen="tatzeitpunkt">Wo waren Sie am 15. März zwischen 14.30 und 15 Uhr?</Frage>
+			<Frage gefragt="nein" gibt_wissen="" id="3" notwendiges_wissen="inventar_susan">Sie haben doch behauptet, Miss Bloom hätte zu diesem Zeitpunkt das Inventar gemacht... soweit ich weiss, hatte kurz zuvor Miss Miller diese Aufgabe zur Genüge ausgeführt?</Frage>
+			<Frage gefragt="nein" gibt_wissen="chef_behauptung_melissa" id="4" notwendiges_wissen="motiv_chef">Miss Bloom behauptete, Sie hätten eine Affäre mit ihr gehabt und darum ein Motiv Miss Miller zu töten, weil diese sie in flagranti erwischte.</Frage>
+			<Frage gefragt="nein" gibt_wissen="motiv_melissa" id="5" notwendiges_wissen="chef_behauptung_melissa">Warum sagen Sie das so?</Frage>
+			<Frage gefragt="nein" gibt_wissen="" id="6" notwendiges_wissen="">Gibt es in diesem Laden Überwachungskameras? Wenn ja, dann hätte ich gerne die Aufnahmen des 15. Märzes und die der Woche davor.</Frage>
+		</Fragen>
+		<Antworten>
+			<Antwort frageid="1">Miss Miller war eine ganz ordentliche Arbeiterin. Aber viel über sie sagen kann ich nicht. Fragen Sie besser meine Frau.</Antwort>
+			<Antwort frageid="2">Ich war hier und habe Miss Blooms Arbeit im Inventar überwacht.</Antwort>
+			<Antwort frageid="3">Nun... wir sind ein ordentliches Geschäft, ich wollte sichergehen, dass alles sauber erledigt wurde...</Antwort>
+			<Antwort frageid="4">(kratzt sich am Kinn, wird unruhig) Achso, hat Miss Bloom das behauptet... Nun, sie ist eine aufmerksamkeitsheuschende Frau... natürlich behauptet sie das.</Antwort>
+			<Antwort frageid="5">Weil Miss Bloom die Beförderung wollte und nun von sich ablenkt, indem Sie mir den schwarzen Peter überreicht. Aber ich hätte nichts davon gehabt, Miss Miller umzubringen. Die hätte niemals etwas ausgeplaudert.</Antwort>
+			<Antwort frageid="6">(schüttelt den Kopf) Die kann und werde ich Ihnen nicht aushändigen. Das ist Privateigentum.</Antwort>
+		</Antworten>
+  </Gespraech>
+   <Gespraech Person="Chefin" freigeschaltet="arbeitsstelle_susan">
+		<Fragen>
+			<Frage gefragt="nein" gibt_wissen="verantwortungsvoll" id="1" notwendiges_wissen="">Was können Sie mir über Miss Miller sagen?</Frage>
+			<Frage gefragt="nein" gibt_wissen="befoerderung_susan" id="2" notwendiges_wissen="">In welcher Beziehung standen Sie zum Opfer?</Frage>
+			<Frage gefragt="nein" gibt_wissen="inventar_susan" id="3" notwendiges_wissen="">Wie zeigte sich Miss Miller im Arbeitsalltag?</Frage>
+			<Frage gefragt="nein" gibt_wissen="weniger_zu_sagen" id="4" notwendiges_wissen="befoerderung_susan">War ihr Mann auch für die Beförderung von Miss Miller?</Frage>
+			<Frage gefragt="nein" gibt_wissen="befoederung_melissa" id="5" notwendiges_wissen="weniger_zu_sagen">Welche andere Kandidatin?</Frage>
+			<Frage gefragt="nein" gibt_wissen="ueberwachungsbaender" id="6" notwendiges_wissen="motiv_chef">Gibt es in diesem Laden Überwachungskameras? Wenn ja, dann hätte ich gerne die Aufnahmen des 15. Märzes und die der Woche davor.</Frage>
+		</Fragen>
+		<Antworten>
+			<Antwort frageid="1">Sie war eine ordentliche, verantwortungsvolle und vorbildliche Mitarbeiterin, die von den anderen gemocht und geschätzt wurde.</Antwort>
+			<Antwort frageid="2">Nun ich war Ihre Vorgesetzte aber es herrschte eine gute Arbeitgeber - Arbeitnehmer - Beziehung zwischen uns vor und wir verstanden uns gut. Auch deswegen sah ich sie für eine Beförderung vor.</Antwort>
+			<Antwort frageid="3">Sie zeigte sich stets von Ihrer besten Seite... kurz vor Ihrem Tod, ein paar Wochen zuvor hat sie die Arbeit im Inventar freiwillig übernommen und in Perfektion ausgeführt.</Antwort>
+			<Antwort frageid="4">Nein, er hätte eine andere Kandidatin bevorzugt aber im Normalfall entscheide ich schlussendlich über Personalfragen.</Antwort>
+			<Antwort frageid="5">Miss Bloom. Nach dem Tod von Miss Miller steht ihr nun die Beförderung zu... (nachdenklich)</Antwort>
+			<Antwort frageid="6">Nun... ja, gibt es. Lustigerweise sind die Originalversionen eben dieser Tage verschwunden aber ich habe versteckte Kopien, von denen nur ich etwas weiss. Die können Sie gerne mitnehmen. (überreicht Sie dem Detektiv)
+			(Du siehst, dass Melissa nicht im Geschäft war. Ausserdem hat der Chef zwar ein Motiv, jedoch ein wasserdichtes Alibi. Er war zu dem Zeitpunkt im Geschäft. Da nur die Chefin von den Überwachungsbändern weiss, ist es selbstverständlich, dass 
+			der Chef sie nicht überarbeitet haben kann).
+			</Antwort>
+		</Antworten>
+  </Gespraech>
+  </Gespraeche>

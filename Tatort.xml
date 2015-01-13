@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Place>
+	<Description>Es gibt mehrere wichtige Zimmer, die wir genauer unter die Lupe nehmen sollten. Unter anderem das Wohnzimmer, die Kueche, das Schlafzimmer
+	und das Badezimmer (Tatort).</Description>
+	<Room name="Wohnzimmer">
+	Das Wohnzimmer ist, wie das restliche Haus, sehr aufgeraeumt und ordentlich. Es finden sich nicht viele Dinge hier. Auf der Couch liegt 
+	eine Lederjacke, deren Jackentasche ein wenig ausgebeult zu sein scheint, auf dem Tisch liegen ordentlich gestapelt ein paar Magazine.
+	Es gibt auch eine kleine Kommode. Und darauf steht etwas, das aussieht wie eine Haushaltskasse... ob die wichtig ist?
+		<searchword name="Magazine">Ein Sammelsurium von Wirtschafts-, Wissenschafts- und Frauenmagazinen. Unwichtig.</searchword>
+		<searchword name="Kommode">Das Oeffnen der Kommode offenbart ... eine gaehnende Leere... Verschwende nicht die Zeit mit Nichtigkeiten!</searchword>
+		<searchword name="Couch">Auf der Couch liegt doch bloss die Jacke... willst du etwa in den Ritzen nach Kleinkram suchen?!</searchword>
+		<searchword name="Jackentasche" gibt_wissen="verlobungsring">In der Jackentasche befand sich ein kleines Schmuckkästchen. Darin: ein Verlobungsring. Ausserdem in der Jackentasche eine 
+    Quittung, die offenbart, dass er am Tag vor der Tat gekauft wurde... interessant...</searchword>
+    <searchword name="Haushaltskasse" gibt_wissen="Haushaltkasse_ungenau">Inhalt: 500 Euro daneben eine Liste, auf der ordentlich dokumentiert steht, wann und wie viel jeweils rausgenommen wurde. Der letzte Stand war 700... danach keine Dokumentation mehr... warum?</searchword>
+	</Room>
+	
+	<Room name="Kueche">
+	Die Kueche ist blitzeblank geschrubbt. Du kannst auf den ersten Blick nichts besonders Interessantes entdecken. Da waeren die Gewuerze, der Kuehlschrank, der über ein Tiefkuehlfach 
+  verfuegt und der Kuechentisch. Dort liegen jedoch nicht besonders viele Dinge herum.
+		<searchword name="Gewuerze">Die Gewuerze stehen akkurat in ihrem Gewuerzkaestchen. Doch sonst kannst du nichts Besonderes erkennen.</searchword>
+		<searchword name="Kuechentisch">Auf dem Tisch liegen verschiedene Prospekte...</searchword>
+		<searchword name="Tiefkuehlfach" gibt_wissen="nur_lachs">Im Tiefkuehlfach finden sich 10 gefrorene Fischmenüs. Allesamt Lachs.</searchword>
+	</Room>
+	
+	<Room name="Schlafzimmer">
+	Im Schlafzimmer sind vermutlich interessantere Dinge. Auf dem Nachttisch liegt das Handy des Opfers. Dann waeren da die Schubladen. In einer liegen Kontoauszuege,
+	in einer anderen eine Art Agenda, dann waeren da noch irgendwelche Zettel und schlussendlich nur noch Einkaufszettel. Und zu guter letzt noch ein Notizblock... könnte
+	der wichtig sein?
+		<searchword name="Kontoauszuege" gibt_wissen="schulden">Dies sind Kontoauszuege: Scheint so, als wäre Mister Stone stark im Minus gewesen.</searchword>
+		<searchword name="Einkaufszettel" gibt_wissen="ordentlich">Mehrere Einkaufszettel, die sorgsam zusammengeheftet wurden. Unwichtig.</searchword>
+		<searchword name="Agenda" gibt_wissen="reservation">Offensichtlich wollten Mister Stone und Miss Miller an dem Tatabend noch zusammen in ein exklusives Restaurant, das eine Reservation benötigte.</searchword>
+		<searchword name="Notizblock" gibt_wissen="bibliotheksbesuche">Darin stehen die Abgabetermine fuer Bibliotheksbuecher und sonstige Nichtigkeiten aus dem Alltag von Miss Miller...</searchword>
+    <searchword name="Zettel" gibt_wissen="kredithai">Eric Stone hatte Kontakt zu einem Kredithai. Ob der wohl etwas ueber Mister Stone verraten kann?</searchword>
+		<searchword name="Handy" gibt_wissen="anruf_susan">Auf dem Handy sind nicht besonders viele interessante Dinge, doch die Anrufliste scheint wichtig zu sein: Der letzte Anruf ging an Miss Bloom und zwar kurz vor der Tatzeit...</searchword>
+	</Room>
+	
+	<Room name="Badezimmer">
+	Das Badezimmer wurde bereits von der Spurensicherung unter die Lupe genommen. Es stehen ein paar Dinge auf dem Badewannenrand,
+	es gibt ein Gestell und sorgsam aus dem Wasser geholt liegt neben der Badewanne die Tatwaffe.
+		<searchword name="Tatwaffe" gibt_wissen="tatwaffe">Die Tatwaffe war ein Föhn, der augenscheinlich an einem Verlängerungskabel angeschlossen war.</searchword>
+		<searchword name="Badewannenrand" gibt_wissen="gestresst">Das Opfer hatte beruhigende Aromen verströmende Kerzen und ein Glas Rotwein auf den Badewannenrand gestellt.</searchword>
+		<searchword name="Gestell" gibt_wissen="flaschen_unordentlich">Mehrere Flaschen sind auseinandergeschoben und ein paar sind umgeflogen.</searchword>
+	</Room>
+</Place>
